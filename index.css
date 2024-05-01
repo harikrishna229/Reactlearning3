@@ -1,0 +1,69 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.logo{
+    width: 190px;
+}
+.navitems ul{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    align-items: center;
+   
+}
+.navitems li{
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    padding: 20px;
+}
+.restcontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.rescard{
+    width: 300px;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 1px 1px 0.15px 0 rgba(0,0,0,0.15);
+    transition: border 0.5s ease;
+    border-radius: 15px;
+    border: 2px solid #E4E4E4;
+}
+.rescard img{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+
+}
+.rescard:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+.filterbtn{
+    margin: 10px;
+}
+.shimmercontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmercard{
+    width: 300px;
+    height: 400px;
+    background-color: #F4F4F4; 
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 1px 1px 0.15px 0 rgba(0,0,0,0.15);
+    border-radius: 15px;
+    border: 2px solid #E4E4E4;
+}
+.filter{
+    display: flex;
+
+}
+.search{
+    margin: 10px;
+}
